@@ -11038,5 +11038,9 @@ p {
 }
 
 .font-size12rem {
-  font-size:1.2rem;
+  font-size:1.1rem;
+}
+
+.ms-mtop {
+  margin-top: 3rem;
 }
