@@ -11044,3 +11044,34 @@ p {
 .ms-mtop {
   margin-top: 3rem;
 }
+
+.font-size14rem {
+  font-size:1.4rem;
+}
+
+.paragraph {
+  display: flex;
+  align-items: center;
+}
+
+.image-img1 {
+  flex: 0 0 50%; /* 調整這個數值以控制圖片佔據的寬度 */
+}
+
+.image-img2 {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.text-tt {
+  flex: 0 0 50%; /* 調整這個數值以控制文字佔據的寬度 */
+  padding: 0 20px; /* 可以加入padding來增加圖片和文字之間的間距 */
+}
+
+.text-ll {
+  flex: 0 0 50%; /* 調整這個數值以控制文字佔據的寬度 */
+  padding: 0 20px; /* 可以加入padding來增加圖片和文字之間的間距 */
+  float: left;
+  order: -1;
+}
