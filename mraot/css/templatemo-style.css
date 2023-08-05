@@ -47,7 +47,7 @@ p {
 }
 
 .tm-section-title {
-	font-size: 2.6rem;
+	font-size: 1.8rem;
     margin-bottom: 2rem;	
 }
 
@@ -56,11 +56,15 @@ p {
 	padding-bottom: 100px;
 }
 
+h3 {
+	font-size: 1.5rem;
+}
+
 .tm-site-title { 
 	border: 2px solid #888481;
 	color: #676362;
 	display: inline-block;
-	font-size: 3rem; 
+	font-size: 2rem; 
 	padding: 30px 40px;
 }
 
@@ -266,3 +270,15 @@ p {
 		margin-bottom: 30px;
 	}
 }
+
+@media screen and (max-width: 768px) {
+      body {
+        font-size: 16px; /* 在螢幕寬度小於等於768px時，字體大小為14px */
+      }
+    }
+
+@media screen (max-width: 480px) {
+      body {
+        font-size: 14px; /* 在螢幕寬度小於等於480px時，字體大小為12px */
+      }
+    }
