@@ -11049,27 +11049,53 @@ p {
   font-size:1.4rem;
 }
 
-.paragraph1 {
-  display: flex;
-  align-items: center; /* 將文字和圖片垂直居中 */
+.font-size19rem {
+  font-size:1.3rem;
 }
 
-.textt1{
-  flex: 0 0 50%; /* 調整這個數值以控制文字佔據的寬度 */
-  padding: 0 20px; /* 可以加入padding來增加文字和圖片之間的間距 */
+.divmattomtop {
+  margin-top: 2rem;
 }
 
-.imagege1 {
-  flex: 0 0 50%; /* 調整這個數值以控制圖片佔據的寬度 */
+.font-size12rem {
+  font-size:1.2rem;
 }
 
-.image-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
+@media (min-width:768px) {
+  .paragraph1 {
+    display: flex;
+    align-items: center; /* 將文字和圖片垂直居中 */
+  }
+  
+  .textt1{
+    flex: 0 0 50%; /* 調整這個數值以控制文字佔據的寬度 */
+    padding: 0 20px; /* 可以加入padding來增加文字和圖片之間的間距 */
+  }
+  
+  .imagege1 {
+    flex: 0 0 50%; /* 調整這個數值以控制圖片佔據的寬度 */
+  }
+  
+  .image-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .texttl1 {
+    float: left;
+    order: -1;
+  }
 }
 
-.texttl1 {
-  float: left;
-  order: -1;
+@media (max-width: 768px) {
+  .font-size768 {
+    font-size: 1rem; /* 在螢幕寬度小於等於768px時，字體大小為14px */
+  }
+}
+
+@media (max-width: 480px) {
+  .font-size480 {
+    font-size: 0.8rem; /* 在螢幕寬度小於等於480px時，字體大小為12px */
+  }
 }
